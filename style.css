@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*? light mode colors */
+:root {
+    --background: #e1e1e9;
+    --calc-background: #e7e8ee;
+    --calc-shadow: 30px 30px 55px #CCC;
+    --num-background: linear-gradient(to bottom right, #c0c5d1,#edeef5);
+    --num-shadow: inset 2px 2px 3px #ebebf3,  inset 4px 4px 15px #cacfd6, 3px 3px 12px #c2c7d4;
+    --eql-background: linear-gradient(to bottom right, #d36d12,#ed9d1e);
+    --eql-shadow: inset 1px 1px 3px #f98500, inset 4px 4px 15px #b35300, inset -1px -1px 3px #cc6308, 3px 3px 5px #c2c7d4;
+    --c-background: linear-gradient(to bottom right, #8b94a1,#eff0f7);
+    --c-shadow: inset 1px 1px 1px #c8ced9, inset 2px 2px 8px #cacfd6, inset -2px -2px 3px #b4bbc7, 3px 3px 12px #c2c7d4;
+    --font-color: #222;
+    --mode-bk: #0025;
+}
+/*? dark mode colors */
+[data-theme="dark"] {
+    --calc-background: #1e212a;
+    --calc-shadow: 30px 30px 55px #888;
+    --num-background: linear-gradient(to bottom right, #292d38,#3c3c44);
+    --num-shadow: inset 1px 1px 1px #393c4a,  inset 4px 4px 15px #20232d, 3px 3px 5px #181b24;
+    --eql-shadow: inset 1px 1px 2px #f9aa2d99, inset 4px 4px 15px #a54e04, 3px 3px 5px #181b24;
+    --c-background: linear-gradient(to bottom right, #494f5c,#6f7587);
+    --c-shadow: inset 1px 1px 1px #656b7b, inset 4px 4px 15px #333942, 3px 3px 5px #181b24;
+    --font-color: #FFF;
+    --mode-bk: #FFF2;
+}
+body {
+    position: relative;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    background: var(--background);
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 300;
+}
+
+/* * 
+The full code will be uploaded soon..
+Follow me so that notifications will be sent to you
+ */
